@@ -40,9 +40,9 @@ export const featured = {
   restaurants: [
     {
       id: 1,
-      name: 'Papa Johns',
+      name: 'Quick',
       image: require('../assets/images/restaurants/snack1.jpg'),
-      description: 'Hot and spicy pizzas',
+      description: 'Hot and spicy burgers',
       lng: -85.5324269,
       lat: 38.2145602,
       address: '434 second street',
@@ -75,9 +75,9 @@ export const featured = {
     },
     {
       id: 2,
-      name: 'Papa Johns',
+      name: 'Pizza Johns',
       image: require('../assets/images/restaurants/snack2.jpg'),
-      description: 'Hot and spicy pizzas',
+      description: 'Italian Pizzas',
       lng: -85.5324269,
       lat: 38.2145602,
       address: '434 second street',
@@ -110,9 +110,9 @@ export const featured = {
     },
     {
       id: 3,
-      name: 'Papa Johns',
+      name: 'Sah Thai',
       image: require('../assets/images/restaurants/snack3.jpg'),
-      description: 'Hot and spicy pizzas',
+      description: 'Cuisine Thailandaise',
       lng: -85.5324269,
       lat: 38.2145602,
       address: '434 second street',
