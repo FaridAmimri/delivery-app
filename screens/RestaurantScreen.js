@@ -7,11 +7,21 @@ import { useNavigation } from '@react-navigation/native'
 import { themeColors } from '../theme'
 import DishRow from '../components/DishRow'
 import CartIcon from '../components/CartIcon'
+import { useEffect } from 'react'
+import { useDispatch } from 'react-redux'
+import { setRestaurant } from '../redux/restaurantSlice'
 
 export default function RestaurantScreen() {
   const { params } = useRoute()
   const navigation = useNavigation()
   let restaurant = params
+  const dispactch = useDispatch()
+
+  useEffect(() => {
+    if (restaurant && restaurant.id) {
+      dispactch(setRestaurant({ ...restaurant }))
+    }
+  }, [])
 
   return (
     <View>
