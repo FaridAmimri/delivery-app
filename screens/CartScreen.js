@@ -1,7 +1,6 @@
 /** @format */
 
 import { View, Text, TouchableOpacity, Image, ScrollView } from 'react-native'
-import { featured } from '../data'
 import * as Icon from 'react-native-feather'
 import { useNavigation } from '@react-navigation/native'
 import { themeColors } from '../theme'
